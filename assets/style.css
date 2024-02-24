@@ -1,0 +1,43 @@
+body {
+  background: #1f242d;
+  color: #00eef2;
+}
+.heading,
+h2,
+h1 {
+  font-size: 24px;
+  /* color: rgb(179, 255, 0); */
+  text-align: center;
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: ; */
+}
+
+.dash-dropdown * {
+  background: #1f242d;
+  color: #00eef2;
+}
+.dash-dropdown span {
+  color: #00eef2 !important;
+}
+
+.dash-dropdown {
+  max-width: 300px;
+  margin-bottom: 32px;
+}
+
+.Select-control * {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+#payload-range-slider {
+  width: 90vw;
+}
+#launch-site-dropdown {
+  width: 500px;
+}
